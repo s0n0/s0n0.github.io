@@ -1,0 +1,62 @@
+@media only screen and (min-width: 501px) {
+    body {
+        padding: 10px;
+        background-image: url("../img/IMG_334514.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+}
+@media only screen and (max-width: 500px) {
+    body {
+        padding: 10px;
+        background-image: url("../img/IMG_334514.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 350%;
+    }
+}
+
+.card {
+    margin: 5% 0px 0px 0px !important;
+    padding: 0px !important;
+}
+
+
+@media only screen and (min-width: 501px) {
+    .imagem{
+        width: 16%;
+        border-radius: 100px;
+        border: 2px solid #1d1d1d;
+        margin-top: 3%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .imagem{
+        width: 50%;
+        border-radius: 100px;
+        border: 2px solid #1d1d1d;
+        margin-top: 10%;
+    }
+}
+
+.subtitulo{
+    font-size: 2rem;
+    margin-bottom: 7px;
+}
+
+h1{
+    font-size: 43px !important;
+    margin: 25px 0px 5px 0px !important;
+}
+
+.projeto{
+    font-weight: bold;
+    font-size: 19px;
+    color: #868686;
+}
+
+.botao{
+    width: 50%;
+    margin: 34px 0px 3px 0px;
+}

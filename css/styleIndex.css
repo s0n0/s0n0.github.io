@@ -1,0 +1,80 @@
+@media only screen and (min-width: 501px) {
+    body {
+        padding: 10px;
+        background-image: url("../img/IMG_334514.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+}
+@media only screen and (max-width: 500px) {
+    body {
+        padding: 10px;
+        background-image: url("../img/IMG_334514.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 350%;
+    }
+}
+
+#barrastatus{
+    background-color: gainsboro;
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    display: inherit;
+    padding: 3px 0px 2px 12px;
+    border: solid 1px #a5a5a5;
+    border-bottom: 0px;
+}
+
+.btnAmarelo{
+    background-color: #ffc318;
+    height: 15px;
+    width: 15px;
+    margin: 0px 8px 0px 0px;
+    border-radius: 7px;
+    border: 1px solid #a5a5a5;
+}
+
+.btnVerde{
+    background-color: #0dd60d;
+    height: 15px;
+    width: 15px;
+    margin: 1px;
+    border-radius: 7px;
+    border: 1px solid #a5a5a5;
+}
+
+.btnVermelho{
+    background-color: #ff6f2a;
+    height: 15px;
+    width: 15px;
+    margin: 0px 8px 0px 0px;
+    border-radius: 7px;
+    border: 1px solid #a5a5a5;
+}
+
+.row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+    margin: 0px;
+}
+
+.row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    margin: 0px !important;
+    padding: 0px !important;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+.col{
+    padding: 0px !important;
+}

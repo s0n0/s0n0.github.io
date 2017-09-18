@@ -1,0 +1,196 @@
+body {
+  padding : 10px ;
+  background-image: url("../img/IMG_334514.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+a{
+  color: #9da1b4 !important;
+}
+
+p{
+  margin: 3px 0px 3px;
+}
+
+.janela{
+  margin-top: 1%;
+  box-shadow: 0px 0px 7px 1px #3a3939;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+#exTab3 .nav-pills > li > a {
+  border-radius: 5px 5px 0 0 ;
+  color: #656877;
+}
+
+#exTab3 .tab-content {
+  background-color: #31343f;
+  padding : 5px 15px;
+}
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+.barraIcones{
+  padding: 1% 0px 1% 10% !important;
+  border-radius: 1px !important;
+}
+
+.barraPastas{
+  padding: 1% 0px 1% 5% !important;
+  border-radius: 1px !important;
+}
+
+.footer{
+  border: 1px solid #1b1c22;
+  background-color: #262831;
+  color: #9da1b4;
+}
+
+.exibicaoArquivo{
+  background-color: #262831;
+  border: 1px solid #1b1c22;
+  border-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 4px;
+}
+
+.exibicaoListaArquivo{
+  background-color: #262831;
+  border: 1px solid #1b1c22;
+  border-bottom: 0px;
+  border-right: 0px;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+  background-color: #31343f !important;
+  color: #d9dff7 !important;
+}
+
+.nav>li>a:focus, .nav>li>a:hover{
+  background-color: rgba(238, 238, 238, 0.03) !important;
+  color: #bcc1d6 !important;
+}
+
+.icones{
+  margin-right: 3px;
+  font-size: 14px !important;
+  vertical-align: initial;
+}
+
+.codigo{
+  color: #b3b3b3 !important;
+  font-family: monospace;
+  font-size: 13px;
+}
+
+.textoLaranja{
+  color: darkorange;
+}
+
+.textoVerde{
+  color: rgb(132, 230, 132);
+}
+
+.textoAmarelo{
+  color: #e4c41d;
+}
+
+.textoAzul{
+  color: rgb(132, 189, 230);
+}
+
+.margem{
+  margin-left: 5%;
+}
+
+.linhas{
+  color: #565656;
+  font-family: monospace;
+  font-size: 11px;
+  margin: 5px 0px 0px 0px;
+}
+
+.colunaLinhas{
+  padding: 0px 0px 0px 0px;
+  border-right: 1px solid #2f2f2f;
+  margin-top: -5px;
+  margin-bottom: -3px;
+  margin-left: -11px;
+  width: 3%;
+}
+
+.imagem{
+  width: 40%;
+  border-radius: 100px;
+  border: 2px solid #1d1d1d;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6%;
+}
+
+#nome{
+  color: cornflowerblue;
+  font-size: 34px;
+  margin-top: 0px;
+}
+
+.subtitulo{
+  color: white;
+  font-size: 20px;
+  font-family: monospace;
+  margin-top: 20px;
+}
+
+#barrastatus{
+  background-color: gainsboro;
+  width: 100%;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  display: inherit;
+  padding: 3px 0px 2px 12px;
+}
+
+.btnAmarelo{
+  background-color: #ffc318;
+  height: 15px;
+  width: 15px;
+  margin: 0px 8px 0px 0px;
+  border-radius: 7px;
+  border: 1px solid #a5a5a5;
+}
+
+.btnVerde{
+  background-color: #0dd60d;
+  height: 15px;
+  width: 15px;
+  margin: 1px;
+  border-radius: 7px;
+  border: 1px solid #a5a5a5;
+}
+
+.btnVermelho{
+  background-color: #ff6f2a;
+  height: 15px;
+  width: 15px;
+  margin: 0px 8px 0px 0px;
+  border-radius: 7px;
+  border: 1px solid #a5a5a5;
+}
+
+.projetoTitle{
+  color: white !important;
+  font-size: 20px !important;
+}
