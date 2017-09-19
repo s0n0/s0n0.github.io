@@ -1,6 +1,4 @@
-# Meu CV Web
-
-Acesse o link acima para ver meu currículo.
+# Meu pequeno espaço no GitHub
 
 Viu algo estranho e quer contribuir?
 * Faça um fork desse projeto
