@@ -1,54 +1,73 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="author" content="Jhonatan Alax">
+<html>
+<head>
+<!-- Não tem nenhum easter egg aqui -->
+	<title>Jhonatan Alax</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Jhonatan Alax tem 21 anos, é estudante de Segurança da Informação e Desenvolvedor Web" />
+    <meta name="keywords" content="jhonatan alax, desenvolvedor web, desenvolvimento web três laogas, websites, segurança da informação, T.I." />
+    <meta name="author" content="Jhonatan Alax">
+	<link rel="alternate" href="https://s0n0.github.io/" hreflang="pt-br" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- Código para começar a mágica -->
+	<link rel="shortcut icon" href="img/favicon.ico" />
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<style type="text/css">
+		html {height: 100%;}
+		body {font-family:Helvetica,Arial,sans-serif; color:#fff; background:#272d39 url("img/bg.png") repeat; height:100%;}
+		header {display:none;}
+		section {width:620px; margin: -80px auto 0;}
+		h2 {font-size:41px; line-height:43px; margin:0; font-weight:400;}
+		strong {font-weight:700;}
+		acronym {cursor: help;} /* Pequena gracinha */
+		p {font-size:16px; line-height:21px;}
+		a {color:#fff; text-decoration:none; transition: color 200ms ease;}
+		a:hover {color:dodgerblue;}
+		p.links a {background-color:#2a2c30; color:white; padding:5px 10px; transition: background-color 200ms ease; font-size:300%;}
+		p.links a:hover {background-color:dodgerblue;}
+		#foto {float:right; margin:6px; width:300px; height:300px; border-radius:50%; border:4px solid #fff; padding:5px;}
 
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Jhonatan Alax CV</title>
+		/* Onde a mágica acontece */
+		@media screen and (max-width:720px) {
+			section {width:100%; margin:0;}
+			h2 {font-size:250%; margin:0;}
+			p {font-size:110%; line-height:130%;}
+		}
+		/* Jhonatan aparece lindo e gigante com o dispositivo no modo retrato */
+		@media screen and (max-width:720px) and (orientation:portrait) {
+			#foto {margin:10px auto; float:none; max-width:100%;}
+		}
+	</style>
+</head>
+<body id="s0n0">
+<table style="width:100%; height:100%;"> <!-- DESCULPA, SOCIEDADE! EU JURO QUE TENTEI DE OUTRAS FORMAS!!! -->
+  <tr>
+     <td style="vertical-align:middle;">
 
-        <!-- Materialize -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
-        <link rel="stylesheet" href="css/styleIndex.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<header>
+		<h1><a rel="me" href="https://s0n0.github.io">Jhonatan Alax</a></h1>
+	</header>
+	<section>
+		<article> <!-- HTML5 é legal, menos para o Internet Explorer 8 -->
+			<img src="img/avatar.jpg" id="foto" alt="Jhonatan Alax">
+			<h2>Olá, tudo bem?</h2>
+			<div class="h-card vcard"> <!-- Microformats -->
+				<p>Meu nome é <strong><span class="p-name fn">Jhonatan Alax</span></strong>, 21 Anos, casado, autodidata, de rápido aprendizado, criativo e apaixonado por tecnologia e seus desafios.</p>
+				<p>Sou <span class="p-job-title title">Diretor de Tecnologia e Desenvolvedor Web</span> da <a href="https://#" target="_blank"><span class="p-org org">Fortaleza Tecnologia</span></a>, com o intuito de prestar serviços de consultoria em Tecnologia de Informação, mostrando soluções de última geração e adequadas a cada cliente em específico.</p>
+                <p>Se quiser conversar ou fazer uma proposta de emprego milionária, envie um e-mail para <a href='mailto:"jhonatan4lax@gmail.com"'><span class='fa fa-envelope' style='font-size:70%;'></span> jhonatan4lax@gmail.com</a>. Dê uma olhada em meu<a href="/cv" target="_blank"><span class='fa fa-briefcase' style='font-size:70%;'></span> CV Online.</a></p>
 
-    </head>
-    <body>
+			<p class="links">
+				<a rel="me" title="Twitter" href="http://twitter.com/jhonatan4lqax"><span class="fa fa-twitter"><span></a> 
+				<a rel="me" title="Facebook" href="http://www.facebook.com/jhonatan4lax"><span class="fa fa-facebook"></span></a> 
+				<a rel="me" title="Instagram" href="https://instagram.com/jhonatanalax"><span class="fa fa-instagram"></span></a>
+				<a rel="me" title="LinkedIn" href="http://br.linkedin.com/in/jhonatan4lax"><span class="fa fa-linkedin"></span></a>
+			</p>
+			</div>
+		</article>
+	</section>
 
-    <div class="container">
 
-        <div class="row">
-            <div id="barrastatus">
-                <div class="btnVermelho"></div>
-                <div class="btnAmarelo"></div>
-                <div class="btnVerde"></div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col s12">
-                <div class="card blue-grey darken-1">
-                    <div class="card-content white-text">
-                        <span class="card-title">Você é da área de T.I.?</span>
-                        <p>Se você não possui familiaridade com programação (ou está acessando de um dispositivo móvel) clique em <b>não</b> para ver meu currículo no formato clássico.</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="para-programadores.html" class="waves-effect waves-light btn">Sim</a>
-                        <a href="classico.html" class="waves-effect waves-light btn">Não</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-
-    </body>
+     </td>
+  </tr>
+</table>
+</body>
 </html>
